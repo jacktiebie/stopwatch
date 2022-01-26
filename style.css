@@ -1,0 +1,53 @@
+/* CSS reset */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Code */
+  
+  body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #stopwatch {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+  }
+  
+  #stopwatch__screen {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+  
+  .button--main {
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
+  }
+  
